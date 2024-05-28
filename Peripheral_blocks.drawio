@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-28T10:31:35.153Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="MJWtEYRvSyt4dl7uQwv9" version="24.4.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-28T11:15:05.137Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="KYn8X5SuPHrhcjjUH-sB" version="24.4.7" type="github" pages="2">
   <diagram name="I2C_Write" id="yMUuZvrdSe3F-vp8CX2O">
     <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -54,6 +54,89 @@
         </mxCell>
         <mxCell id="z1H_3j-S7ds4K9789OhZ-16" value="Stop" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="40" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="H1wokYjtYxB-QMri0eOk" name="I2C_Fundamental_APIs">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xs51P_EwgACpL_44Fye_-1" value="I2C driver" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="130" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xs51P_EwgACpL_44Fye_-2" value="APIs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="320" y="200" width="120" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="xs51P_EwgACpL_44Fye_-3" value="I2C Init" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="490" y="220" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xs51P_EwgACpL_44Fye_-4" value="I2C Master Tx" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="490" y="270" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xs51P_EwgACpL_44Fye_-5" value="I2C Master Rx" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="490" y="320" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xs51P_EwgACpL_44Fye_-6" value="I2C Slave Tx" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="490" y="370" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xs51P_EwgACpL_44Fye_-7" value="I2C Slave Rx" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="490" y="420" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xs51P_EwgACpL_44Fye_-8" value="I2C Error interrupt handling" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="490" y="470" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xs51P_EwgACpL_44Fye_-9" value="I2C Event interrupt handling" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="490" y="520" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xs51P_EwgACpL_44Fye_-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=flexArrow;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="235" as="sourcePoint" />
+            <mxPoint x="490" y="234.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xs51P_EwgACpL_44Fye_-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=flexArrow;exitX=0.983;exitY=0.095;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="438" y="285.75" as="sourcePoint" />
+            <mxPoint x="490" y="284.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xs51P_EwgACpL_44Fye_-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=flexArrow;exitX=0.983;exitY=0.095;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="335.75" as="sourcePoint" />
+            <mxPoint x="492" y="334.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xs51P_EwgACpL_44Fye_-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=flexArrow;exitX=0.983;exitY=0.095;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="438" y="385.75" as="sourcePoint" />
+            <mxPoint x="490" y="384.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xs51P_EwgACpL_44Fye_-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=flexArrow;exitX=0.983;exitY=0.095;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="435.75" as="sourcePoint" />
+            <mxPoint x="492" y="434.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xs51P_EwgACpL_44Fye_-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=flexArrow;exitX=0.983;exitY=0.095;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="438" y="485.75" as="sourcePoint" />
+            <mxPoint x="490" y="484.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xs51P_EwgACpL_44Fye_-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=flexArrow;exitX=0.983;exitY=0.095;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="535.75" as="sourcePoint" />
+            <mxPoint x="492" y="534.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xs51P_EwgACpL_44Fye_-26" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="xs51P_EwgACpL_44Fye_-1" target="xs51P_EwgACpL_44Fye_-2">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="220" y="480" as="sourcePoint" />
+            <mxPoint x="320" y="380" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
