@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-30T15:49:22.296Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="3pWtPkmv_1ZEfHzjRAym" version="24.4.10" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-05-30T15:53:03.616Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="X4nhbcIPuuSn56cNSkZv" version="24.4.10" type="github" pages="6">
   <diagram name="I2C_Write" id="yMUuZvrdSe3F-vp8CX2O">
     <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -374,6 +374,9 @@
         </mxCell>
         <mxCell id="biBwtJOSE2Vw-gNR38md-42" value="Read DR" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="biBwtJOSE2Vw-gNR38md-1">
           <mxGeometry x="840" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="biBwtJOSE2Vw-gNR38md-85" value="1. What happens if ADDR = 0, ADDR = 1, ACK = 0, STOP = 1? Why for master we have to fllow this frame format?&lt;br&gt;2. Is it I2C specification?&lt;br&gt;3. What is EV5, EV6, EV7 - is it status register of Master I2C status register - what happens after each EV flags are set?&lt;br&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="270" y="520" width="700" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
