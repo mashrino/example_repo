@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-30T03:52:44.695Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="SwplvJPc77RZ6cZMM9hk" version="24.4.9" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-05-30T03:53:04.963Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="EeFfOtMaFui0NFnpMXnZ" version="24.4.9" type="github" pages="4">
   <diagram name="I2C_Write" id="yMUuZvrdSe3F-vp8CX2O">
     <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -273,16 +273,16 @@
         <mxCell id="UXmDYyJMkk-dqoOj99D1-10" value="HSE (memory mapped module)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="710" y="330" width="300" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="UXmDYyJMkk-dqoOj99D1-11" value="MU1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="UXmDYyJMkk-dqoOj99D1-11" value="MU1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e6d0de;gradientColor=#d5739d;strokeColor=#996185;" vertex="1" parent="1">
           <mxGeometry x="730" y="300" width="50" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UXmDYyJMkk-dqoOj99D1-12" value="MU2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="UXmDYyJMkk-dqoOj99D1-12" value="MU2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e6d0de;gradientColor=#d5739d;strokeColor=#996185;" vertex="1" parent="1">
           <mxGeometry x="800" y="300" width="50" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UXmDYyJMkk-dqoOj99D1-13" value="MU3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="UXmDYyJMkk-dqoOj99D1-13" value="MU3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e6d0de;gradientColor=#d5739d;strokeColor=#996185;" vertex="1" parent="1">
           <mxGeometry x="870" y="300" width="50" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UXmDYyJMkk-dqoOj99D1-14" value="MU4" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="UXmDYyJMkk-dqoOj99D1-14" value="MU4" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e6d0de;gradientColor=#d5739d;strokeColor=#996185;" vertex="1" parent="1">
           <mxGeometry x="940" y="300" width="50" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UXmDYyJMkk-dqoOj99D1-15" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1">
