@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-29T11:05:18.233Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="IFNgxU6p3p09904798c0" version="24.4.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-05-30T03:52:44.695Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="SwplvJPc77RZ6cZMM9hk" version="24.4.9" type="github" pages="4">
   <diagram name="I2C_Write" id="yMUuZvrdSe3F-vp8CX2O">
     <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -236,6 +236,59 @@
         <mxCell id="qfK8OOCmIDC2yG7i8sYa-14" value="SCL" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qfK8OOCmIDC2yG7i8sYa-13">
           <mxGeometry x="0.0571" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Wf_UJh4QnuBBrNOn5HLN" name="Descriptor">
+    <mxGraphModel dx="1134" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UXmDYyJMkk-dqoOj99D1-2" value="Core" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" vertex="1" parent="1">
+          <mxGeometry x="160" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXmDYyJMkk-dqoOj99D1-3" value="DMA (bus master)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="440" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXmDYyJMkk-dqoOj99D1-4" value="HSE (bus master)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="720" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXmDYyJMkk-dqoOj99D1-5" value="Crossbar" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="100" y="240" width="890" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UXmDYyJMkk-dqoOj99D1-6" value="Flash" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" vertex="1" parent="1">
+          <mxGeometry x="130" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXmDYyJMkk-dqoOj99D1-7" value="SRAM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="320" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXmDYyJMkk-dqoOj99D1-8" value="DMA (memory mapped module)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="500" y="330" width="140" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="UXmDYyJMkk-dqoOj99D1-9" value="Descriptor&lt;div&gt;#Command&lt;/div&gt;&lt;div&gt;#Address parameter 1&lt;/div&gt;&lt;div&gt;#Address parameter 2&lt;/div&gt;&lt;div&gt;#Param X&lt;/div&gt;&lt;div&gt;#Param Y&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" vertex="1" parent="1">
+          <mxGeometry x="185" y="430" width="180" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="UXmDYyJMkk-dqoOj99D1-10" value="HSE (memory mapped module)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="710" y="330" width="300" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="UXmDYyJMkk-dqoOj99D1-11" value="MU1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="300" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXmDYyJMkk-dqoOj99D1-12" value="MU2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="300" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXmDYyJMkk-dqoOj99D1-13" value="MU3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="300" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXmDYyJMkk-dqoOj99D1-14" value="MU4" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="300" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXmDYyJMkk-dqoOj99D1-15" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="300" as="sourcePoint" />
+            <mxPoint x="500" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
